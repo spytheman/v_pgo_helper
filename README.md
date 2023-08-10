@@ -21,3 +21,7 @@ a list of the supported env variables.
 Prerequisites:
 ===================
 V, GCC, hyperfine
+
+How it looks:
+===================
+![Screenshot of the output of the tool](./screenshot.png)
