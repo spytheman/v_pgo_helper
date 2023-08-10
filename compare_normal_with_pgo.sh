@@ -27,7 +27,7 @@ xtime $V $VO $V_OPTIONS -cc $CC                                           -o nor
 
 techo "Compiling pgo_profile ..."
 xtime $V $VO $V_OPTIONS -cc $CC -cflags -fprofile-generate=profile_folder -o pgo_profile $PROGRAM
-./pgo_profile $PROGRAM_OPTIONS
+xtime ./pgo_profile $PROGRAM_OPTIONS
 techo "Compiling pgo ..."
 xtime $V $VO $V_OPTIONS -cc $CC -cflags -fprofile-use=profile_folder      -o pgo         $PROGRAM
 
